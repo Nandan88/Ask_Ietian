@@ -68,3 +68,27 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+<!-- 1.backend me package.json me main me server.js kiya  -->
+<!--backend   npm i express mongoose body-parser cors nodemon -->  nodemon->server ko automatic restart kar deta hai when any changes are saved
+
+
+<!-- For communication of frontend and backend sabse bahar wale package.json me scripts me  3 lines add ki  
+     "client": "npm start --prefix frontend",
+    "server": "nodemon backend/server",
+    "start": "nodemon --watch backend --exec node backend/server.js"
+    "vid 3 1:15:00
+ -->
+
+<!-- cd->ask_ietian npm i express nodemon axios body-parser mongoose cors -->
+
+<!-- MongoDB me network access me 0.0.0.0/0 set hai toh saare ip worl karenge -->
+
+
+
+
+
+<!-- REMAINING HAI YE -->
+<!-- frontend me  "npm run build" karna hai toh build folder ban jayega apan ne server.js me build me use kiya hai build folder.Isse backend se hi server.js se react app chalegi,manually alag se start nahi karna padega-->
